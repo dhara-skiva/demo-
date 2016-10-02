@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21396" started-at="2016-09-25T06:29:58Z" finished-at="2016-09-25T06:30:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21396" started-at="2016-09-25T06:29:58Z" finished-at="2016-09-25T06:30:19Z">
+      <class name="AdminMenu">
+        <test-method status="PASS" signature="init()[pri:0, instance:AdminMenu@29ee9faa]" name="init" is-config="true" duration-ms="12752" started-at="2016-09-25T16:29:58Z" finished-at="2016-09-25T16:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyAdminLogin()[pri:0, instance:AdminMenu@29ee9faa]" name="verifyAdminLogin" duration-ms="2273" started-at="2016-09-25T16:30:11Z" finished-at="2016-09-25T16:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLogin -->
+        <test-method status="PASS" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:AdminMenu@29ee9faa]" name="afterMethodTest" is-config="true" duration-ms="1" started-at="2016-09-25T16:30:13Z" finished-at="2016-09-25T16:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminLogin status=SUCCESS method=AdminMenu.verifyAdminLogin()[pri:0, instance:AdminMenu@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="PASS" signature="verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa]" name="verifyAdminMenuLinks" duration-ms="1044" started-at="2016-09-25T16:30:13Z" data-provider="AdminMenu" finished-at="2016-09-25T16:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vendor Management]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vendor Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminMenuLinks -->
+        <test-method status="PASS" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:AdminMenu@29ee9faa]" name="afterMethodTest" is-config="true" duration-ms="252" started-at="2016-09-25T16:30:14Z" finished-at="2016-09-25T16:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminMenuLinks status=SUCCESS method=AdminMenu.verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="PASS" signature="verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa]" name="verifyAdminMenuLinks" duration-ms="944" started-at="2016-09-25T16:30:14Z" data-provider="AdminMenu" finished-at="2016-09-25T16:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Item Management]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Item Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminMenuLinks -->
+        <test-method status="PASS" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:AdminMenu@29ee9faa]" name="afterMethodTest" is-config="true" duration-ms="64" started-at="2016-09-25T16:30:15Z" finished-at="2016-09-25T16:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminMenuLinks status=SUCCESS method=AdminMenu.verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="PASS" signature="verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa]" name="verifyAdminMenuLinks" duration-ms="940" started-at="2016-09-25T16:30:15Z" data-provider="AdminMenu" finished-at="2016-09-25T16:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POR Management]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POR Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminMenuLinks -->
+        <test-method status="PASS" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:AdminMenu@29ee9faa]" name="afterMethodTest" is-config="true" duration-ms="51" started-at="2016-09-25T16:30:16Z" finished-at="2016-09-25T16:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminMenuLinks status=SUCCESS method=AdminMenu.verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="PASS" signature="verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa]" name="verifyAdminMenuLinks" duration-ms="887" started-at="2016-09-25T16:30:16Z" data-provider="AdminMenu" finished-at="2016-09-25T16:30:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PO Management]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PO Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminMenuLinks -->
+        <test-method status="PASS" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:AdminMenu@29ee9faa]" name="afterMethodTest" is-config="true" duration-ms="43" started-at="2016-09-25T16:30:17Z" finished-at="2016-09-25T16:30:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminMenuLinks status=SUCCESS method=AdminMenu.verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="FAIL" signature="verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa]" name="verifyAdminMenuLinks" duration-ms="800" started-at="2016-09-25T16:30:17Z" data-provider="AdminMenu" finished-at="2016-09-25T16:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invoices]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invoices Management]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title matches expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title matches expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at AdminMenu.verifyAdminMenuLinks(AdminMenu.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminMenuLinks -->
+        <test-method status="PASS" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:AdminMenu@29ee9faa]" name="afterMethodTest" is-config="true" duration-ms="383" started-at="2016-09-25T16:30:18Z" finished-at="2016-09-25T16:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminMenuLinks status=FAILURE method=AdminMenu.verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="PASS" signature="verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa]" name="verifyAdminMenuLinks" duration-ms="653" started-at="2016-09-25T16:30:18Z" data-provider="AdminMenu" finished-at="2016-09-25T16:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Messages]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Messages]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminMenuLinks -->
+        <test-method status="PASS" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:AdminMenu@29ee9faa]" name="afterMethodTest" is-config="true" duration-ms="63" started-at="2016-09-25T16:30:19Z" finished-at="2016-09-25T16:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminMenuLinks status=SUCCESS method=AdminMenu.verifyAdminMenuLinks(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:AdminMenu@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:AdminMenu@29ee9faa]" name="cleanUp" is-config="true" duration-ms="206" started-at="2016-09-25T16:30:19Z" finished-at="2016-09-25T16:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- AdminMenu -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
